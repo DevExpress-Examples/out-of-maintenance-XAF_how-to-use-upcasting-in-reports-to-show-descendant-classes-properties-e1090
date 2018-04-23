@@ -1,0 +1,21 @@
+using DevExpress.Xpo;
+using System.Data;
+using DevExpress.Data.Filtering;
+using WinExample.Module;
+private void OnBeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e) {
+    EmployeeBase employeeBaseObj = (EmployeeBase)xafReport1.GetCurrentRow();
+    ForeignEmployee foreignEmployeeObj = employeeBaseObj as ForeignEmployee;
+    LocalEmployee localEmployeeObj = employeeBaseObj as LocalEmployee;
+    if (localEmployeeObj != null){
+        xrTableCell3.Text = localEmployeeObj.InsurancePolicyNumber;
+    }
+    else {
+        xrTableCell3.Text = string.Empty;
+    }
+    if (foreignEmployeeObj != null){
+        xrTableCell4.Text = string.Format("{0:d}", foreignEmployeeObj.VisaExpirationDate);
+     }
+    else {
+        xrTableCell4.Text = string.Empty;
+    }
+}
