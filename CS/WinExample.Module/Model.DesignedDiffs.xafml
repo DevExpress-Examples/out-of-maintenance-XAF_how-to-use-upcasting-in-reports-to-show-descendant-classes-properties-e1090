@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application Title="WinExample" Logo="ExpressAppLogo">
+	<Views>
+		<ListView ID="EmployeeBase_ListView">
+			<Columns>
+				<ColumnInfo PropertyName="&lt;LocalEmployee&gt;InsurancePolicyNumber" Caption="InsurancePolicyNumber" Index="2" IsNewNode="True" />
+				<ColumnInfo PropertyName="&lt;ForeignEmployee&gt;VisaExpirationDate" Caption="VisaExpirationDate" Index="3" IsNewNode="True" />
+			</Columns>
+		</ListView>
+	</Views>
+	<SchemaModules IsNewNode="True">
+		<SchemaModule Name="SystemModule" Version="8.2.7.4886" IsNewNode="True" />
+		<SchemaModule Name="DevExpress.ExpressApp.SystemModule.HideActionsViewController" Version="8.2.7.4886" IsNewNode="True" />
+		<SchemaModule Name="DevExpress.ExpressApp.SystemModule.ShowNavigationItemController" Version="8.2.7.4886" IsNewNode="True" />
+	</SchemaModules>
+</Application>
