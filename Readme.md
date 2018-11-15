@@ -1,3 +1,20 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[script.txt](./CS/script.txt) (VB: [script.txt](./VB/script.txt))**
+* [Model.DesignedDiffs.xafml](./CS/WinExample.Module.Win/Model.DesignedDiffs.xafml) (VB: [Model.DesignedDiffs.xafml](./VB/WinExample.Module.Win/Model.DesignedDiffs.xafml))
+* [Updater.cs](./CS/WinExample.Module.Win/Updater.cs) (VB: [Updater.vb](./VB/WinExample.Module.Win/Updater.vb))
+* [WinModule.cs](./CS/WinExample.Module.Win/WinModule.cs) (VB: [WinModule.vb](./VB/WinExample.Module.Win/WinModule.vb))
+* [EmployeeBase.cs](./CS/WinExample.Module/EmployeeBase.cs) (VB: [EmployeeBase.vb](./VB/WinExample.Module/EmployeeBase.vb))
+* [ForeignEmployee.cs](./CS/WinExample.Module/ForeignEmployee.cs) (VB: [ForeignEmployee.vb](./VB/WinExample.Module/ForeignEmployee.vb))
+* [LocalEmployee.cs](./CS/WinExample.Module/LocalEmployee.cs) (VB: [LocalEmployee.vb](./VB/WinExample.Module/LocalEmployee.vb))
+* [Model.DesignedDiffs.xafml](./CS/WinExample.Module/Model.DesignedDiffs.xafml) (VB: [Model.DesignedDiffs.xafml](./VB/WinExample.Module/Model.DesignedDiffs.xafml))
+* [Module.cs](./CS/WinExample.Module/Module.cs) (VB: [Module.vb](./VB/WinExample.Module/Module.vb))
+* [Updater.cs](./CS/WinExample.Module/Updater.cs) (VB: [Updater.vb](./VB/WinExample.Module/Updater.vb))
+* [Model.xafml](./CS/WinExample.Win/Model.xafml) (VB: [Model.xafml](./VB/WinExample.Win/Model.xafml))
+* [Program.cs](./CS/WinExample.Win/Program.cs) (VB: [Program.vb](./VB/WinExample.Win/Program.vb))
+* [WinApplication.cs](./CS/WinExample.Win/WinApplication.cs) (VB: [WinApplication.vb](./VB/WinExample.Win/WinApplication.vb))
+<!-- default file list end -->
 # How to use UpCasting in reports to show descendant classes' properties
 
 
