@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[script.txt](./CS/script.txt) (VB: [script.txt](./VB/script.txt))**
+* [EmployeeBase.cs](./CS/WinExample.Module/EmployeeBase.cs) (VB: [EmployeeBase.vb](./VB/WinExample.Module/EmployeeBase.vb))
+* [ForeignEmployee.cs](./CS/WinExample.Module/ForeignEmployee.cs) (VB: [ForeignEmployee.vb](./VB/WinExample.Module/ForeignEmployee.vb))
+* [LocalEmployee.cs](./CS/WinExample.Module/LocalEmployee.cs) (VB: [LocalEmployee.vb](./VB/WinExample.Module/LocalEmployee.vb))
+* [Model.DesignedDiffs.xafml](./CS/WinExample.Module/Model.DesignedDiffs.xafml) (VB: [Model.DesignedDiffs.xafml](./VB/WinExample.Module/Model.DesignedDiffs.xafml))
+* [Updater.cs](./CS/WinExample.Module/Updater.cs) (VB: [Updater.vb](./VB/WinExample.Module/Updater.vb))
+<!-- default file list end -->
 # How to use UpCasting in reports to show descendant classes' properties
 
 
